@@ -4,9 +4,10 @@ import "fmt"
 
 func main() {
 
-	Conference_name := "Go Conference"
+	ConferenceName := "Go Conference"
+	const conferenceTicket = 50
 
-	fmt.Println("Welcome to", Conference_name , "booking application")
+	fmt.Println("Welcome to", ConferenceName , "booking application")
 	fmt.Println("Get your tickets here to attend")
 
 	
